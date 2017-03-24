@@ -1,0 +1,412 @@
+body {
+  font-family: 'YuGothic','Yu Gothic','Lato',sans-serif;
+  font-weight: 100;
+  margin-top: 40px;
+}
+
+ul,li{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+.col-xs-12 {
+  padding: 0;
+}
+
+
+.is-main-font-color {
+  color: #777;
+}
+
+.is-center {
+  text-align: center;
+}
+
+.is-left {
+  text-align: left;
+  padding-left : 18px;
+  padding-right: 18px;
+}
+
+.is-block {
+  display: block;
+}
+
+.is-auto{
+  margin: 0 auto;
+}
+
+.is-color-b {
+  color: #000;
+}
+
+.is-color-f {
+  color: #fff;
+}
+
+.is-line-h-1-5 {
+  line-height: 1.5;
+}
+
+.is-line-h-1-6 {
+  line-height: 1.6;
+}
+
+.is-line-h-1-7 {
+  line-height: 1.7;
+}
+
+.is-line-h-1-8 {
+  line-height: 1.8;
+}
+
+.is-line-h-2 {
+  line-height: 2;
+}
+
+.is-font-bold{
+  font-weight: 800;
+}
+
+/***************************
+▼共通スタイル
+***************************/
+
+.h4-font{
+  font-size: 24px;
+  color : #fff; 
+
+}
+
+/***************************
+▼共通コンポーネント
+***************************/
+
+/*********icon********/
+
+.main-icon{
+  background-image: url('/images/main-icon.png');
+  width: 36px;
+  height: 36px;
+  background-size:36px; 
+  margin:0 auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+}
+
+/*********NAV - PC ********/
+
+.common-pc-nav{
+  position: fixed;
+  margin-top: 24px;
+  border-top: 1px solid #e7e7e7
+}
+
+
+.common-pc-nav-list:first-child {
+/*  margin-top: 0;*/
+}
+
+
+.common-pc-nav-list {
+  margin-top: 16px;
+}
+
+
+/*********NAV - スマホ ********/
+
+
+.navbar-default,
+.navbar-toggle { 
+  background-color: #fff;
+
+ }
+
+.navbar-default .navbar-toggle {
+  float: left;
+  margin-left: 8px;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #86ddcd;
+}
+
+.navbar-default .navbar-brand{
+  position: absolute;
+  left: 50%;
+  margin-left: -57px;
+}
+
+
+/***************************
+▼ MAIN-PAGE - ファーストビュー
+***************************/
+
+.main-contents-wrapper {
+  height: 480px;
+  /*background-color: #7fdcca;*/
+
+  background-color: #19c0f2;
+  width: 100%;
+
+}
+
+.main-contents-h-txt {
+  margin-top: 16px;
+}
+
+.main-contents-txt-wrapper{
+  margin-top: 36px;
+}
+
+.main-contents-logo-wrapper{
+  padding-top: 80px;
+}
+
+.main-contents-logo{
+  width: 80px;
+  height: 80px;
+}
+
+/**********************
+TOP-PAGE-各セクションのスタイル
+**********************/
+
+/**********************
+各セクション - 共通
+**********************/
+
+
+.s01-contents-wrapper,
+.s02-contents-wrapper,
+.s03-contents-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+ .main-contents-h-section-txt{
+  margin-top: 8px;
+}
+
+
+/**********************
+各セクション - 個別
+**********************/
+
+
+.s01-service-logo{
+
+  background-image: url('/images/angular.png');
+  width: 200px;
+  height: 200px;
+  background-size: 200px; 
+  margin:0 auto;
+  margin-top: 16px;
+
+
+}
+
+.s02-service-logo{
+
+ background-image: url('/images/php.png');
+ width: 200px;
+ height: 200px;
+ background-size: 200px; 
+ margin:0 auto;
+ margin-top: 16px; 
+}
+
+.s03-service-logo{
+
+ background-image: url('/images/lecture.png');
+ width: 200px;
+ height: 200px;
+ background-size: 200px; 
+ margin:0 auto;
+ margin-top: 16px; 
+}
+
+
+
+
+/***************************
+▼ footer
+***************************/
+
+.footer {
+  height: 50px;
+  background : #5e5e5e;
+}
+
+.small {
+  display: block;
+  color :#fff;
+  font-size: 12px;
+  line-height: 50px;
+  text-align: center;
+}
+
+
+/*******************************************
+▼ ABOUT
+********************************************/
+
+.about-contents-wrapper{
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.about-contents-header{
+  background :#19c0f2;
+  margin-top: 24px;
+  padding-bottom :20px;
+}
+
+.about-icon-wrapper{
+  padding-top: 24px;
+}
+
+.about-contents-text-wrapper{
+  margin-top: 24px;
+}
+
+.about-contents-text-question-wrapper{
+  border-top :1px solid #eee; 
+  border-bottom :1px solid #eee; 
+}
+
+.about-contents-text-question{
+  padding-top: 16px;
+  padding-bottom: 6px;
+
+}
+
+.about-contents-text-answer-wrapper{
+  padding-top: 16px;
+}
+
+.about-contents-text-answer{
+  padding-top: 16px;
+}
+
+/********************************************
+▼ メディアクエリ
+*********************************************/
+
+
+/***************************
+▼ タブレット版
+***************************/
+
+@media (min-width: 768px){
+
+  .navbar-nav{
+    display: none;
+  }
+
+  .common-pc-nav{
+    width: 173px;
+
+  }
+
+  .sns-list-wrapper{
+    float: right;
+    margin-right :24px;
+     width: 200px;
+  }
+
+  .sns-list{
+    width: 36px;
+    margin-right :24px;
+    display: inline-block;
+  }
+
+  .sns-link {
+    display: inline-block;
+  }
+
+  .sns-git {
+    background-image: url('/images/git-icon.png');
+    width: 36px;
+    height: 36px;
+    background-size:36px; 
+  }
+
+  .sns-twitter{
+    background-image: url('/images/twitter-icon.png');
+    width: 36px;
+    height: 36px;
+    background-size:36px; 
+
+  }
+
+  .navbar-default .navbar-brand {
+    margin-left: -336px;
+  }
+
+  .footer-text{
+    text-align: right;
+    margin-right: 60px;
+  }
+
+}
+
+/***************************
+▼ ノートパソコン向け
+***************************/
+
+
+@media (min-width: 992px){
+
+  .navbar-nav{
+    display: none;
+  }
+
+  .common-pc-nav {
+    width: 228px;
+  }
+
+  .navbar-default .navbar-brand {
+    margin-left: -446px;
+   }
+
+
+}
+
+/***************************
+▼ デスクトップ向け
+***************************/
+
+
+@media (min-width: 1170px){
+
+  .navbar-nav {
+    display: none;
+  }
+
+  .common-pc-nav{
+    width:278px;
+
+  }
+
+  .navbar-default .navbar-brand{
+    margin-left: -546px;
+  }
+
+
+}
+
+

@@ -1,0 +1,229 @@
+body {
+  font-family: 'YuGothic','Yu Gothic','Lato',sans-serif;
+  font-weight: 100;
+  margin-top: 40px;
+}
+
+ul,li{
+  list-style-type: none;
+}
+
+.col-xs-12 {
+  padding: 0;
+}
+
+.is-main-font-color {
+  color: #777
+}
+
+.is-center {
+  text-align: center;
+}
+
+.is-left {
+  text-align: left;
+  padding-left : 18px;
+  padding-right: 18px;
+}
+
+.is-block {
+  display: block;
+}
+
+.is-auto{
+  margin: 0 auto;
+}
+
+.is-color-f {
+  color: #fff;
+}
+
+.is-line-h-1-5 {
+  line-height: 1.5;
+}
+
+.is-line-h-1-8 {
+  line-height: 1.8;
+}
+
+.is-line-h-2 {
+  line-height: 2;
+}
+
+/***************************
+▼共通スタイル
+***************************/
+
+.h4-font{
+  font-size: 24px;
+  color : #fff; 
+
+}
+
+/***************************
+▼共通コンポーネント
+***************************/
+
+/*********icon********/
+
+.main-icon{
+  background-image: url('/images/main-icon.png');
+  width: 36px;
+  height: 36px;
+  background-size:36px; 
+  margin:0 auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+}
+
+/*********NAV - PC ********/
+
+.common-pc-nav{
+  margin-top: 40px;
+  position: fixed;
+}
+
+
+/*********NAV - スマホ ********/
+
+
+.navbar-default,
+.navbar-toggle { 
+  background-color: #fff;
+
+ }
+
+.navbar-default .navbar-toggle {
+  float: left;
+  margin-left: 8px;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #86ddcd;
+}
+
+.navbar-default .navbar-brand{
+  position: absolute;
+  left: 50%;
+  margin-left: -57px;
+}
+
+
+/***************************
+▼ MAIN-PAGE - ファーストビュー
+***************************/
+
+.main-contents-wrapper {
+  height: 480px;
+  /*background-color: #7fdcca;*/
+
+  background-color: #19c0f2;
+  width: 100%;
+
+}
+
+.main-contents-h-txt {
+  margin-top: 16px;
+}
+
+.main-contents-txt-wrapper{
+  margin-top: 36px;
+}
+
+.main-contents-logo-wrapper{
+  padding-top: 80px;
+}
+
+.main-contents-logo{
+  width: 80px;
+  height: 80px;
+}
+
+/**********************
+TOP-PAGE-各セクションのスタイル
+**********************/
+
+.s01-contents-wrapper{
+  padding-left: 20px;
+  padding-right: 20px; 
+}
+
+ .main-contents-h-section-txt{
+  margin-top: 8px;
+}
+
+
+.s01-service-logo{
+
+  background-image: url('/images/angular.png');
+  width: 200px;
+  height: 200px;
+  background-size: 200px; 
+  margin:0 auto;
+  margin-top: 16px;
+
+
+}
+
+.s02-service-logo{
+
+ background-image: url('/images/php.png');
+ width: 200px;
+ height: 200px;
+ background-size: 200px; 
+ margin:0 auto;
+ margin-top: 16px; 
+}
+
+.s03-service-logo{
+
+ background-image: url('/images/lecture.png');
+ width: 200px;
+ height: 200px;
+ background-size: 200px; 
+ margin:0 auto;
+ margin-top: 16px; 
+}
+
+
+
+
+/***************************
+▼ footer
+***************************/
+
+.footer {
+  height: 50px;
+  background : #5e5e5e;
+}
+
+.small {
+  display: block;
+  color :#fff;
+  font-size: 12px;
+  line-height: 50px;
+}
+
+
+/***************************
+▼ メディアクエリ
+***************************/
+
+
+@media (min-width: 768px){
+
+  .navbar-nav{
+    display: none;
+  }
+
+}
+

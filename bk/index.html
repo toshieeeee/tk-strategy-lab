@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="ja"  ng-app="portfolioApp">
+  
+<head>
+  <meta charset="UTF-8">
+  <title>Angular_temp</title>
+
+<!--
+**************************
+▼Boot_Strap呼び出し
+****************************
+-->
+  
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+   
+  <!--最小限のビューポート設定-->
+  <meta name="viewport" content="width=device-width">
+
+  <script src="/lib/jquery/jquery-3.1.1.min.js"></script>
+  <script src="/lib/jquery/bootstrap.js"></script>
+
+<!--
+**************************
+▼Angular_module呼び出し
+**************************
+-->
+
+  <script src="/lib/angular/angular.js"></script>
+  <script src="/lib/angular/angular-route.js"></script>
+
+<!--
+**************************
+▼Angular_JS読み込み
+**************************
+-->
+  
+  <script src="/js/config/route.js"></script>
+  <script src="/js/directives/directive.js"></script>
+  <script src="/js/services/service.js"></script>
+  <script src="/js/controller/controller.js"></script>
+  
+  
+</head>
+
+<body>
+  
+  <header id="header" class="container"></header>
+
+<!--
+**************************
+▼共通NAV呼び出し
+****************************
+--> 
+  
+  <div nav-common></div>
+  
+  <div class="container">
+    
+    <div class="row">
+
+      <div class="col-sm-2 hidden-xs">
+
+      <div class="common-pc-nav">
+
+        <ul>
+
+          <li><a href="#/">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+
+        </ul>
+
+      </div>
+
+      </div>
+      
+      <div class="col-sm-10 col-xs-12">
+
+        <ng-view></ng-view>
+            
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+<!--
+**************************
+▼共通FOOTER呼び出し
+****************************
+--> 
+  
+  <div footer-common></div>
+  
+</body>
+</html>
