@@ -9,6 +9,10 @@ ul,li{
   text-decoration: none;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 
 .col-xs-12 {
   padding: 0;
@@ -93,6 +97,17 @@ ul,li{
   margin:0 auto;
   margin-top: 16px;
   margin-bottom: 16px;
+
+}
+
+.main-icon-inline {
+  display: inline-block;
+  background-image: url('/images/main-icon.png');
+  width: 30px;
+  height: 30px;
+  background-size:30px; 
+  position: relative;
+  top: 8px;
 
 }
 
@@ -301,6 +316,80 @@ TOP-PAGE-各セクションのスタイル
 .about-contents-text-answer{
   padding-top: 16px;
 }
+
+/*******************************************
+▼ PORTFOLIO
+********************************************/
+
+/***************************
+▼ 共通
+***************************/
+
+.takara-icon{
+
+  background-image: url('/images/takara-icon.png');
+  width: 36px;
+  height: 33px;
+  background-size:36px; 
+  margin:0 auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+}
+
+.portfolio-contents-article-wrapper{
+  margin-top: 16px;
+}
+
+.thumbnail  {
+  border-radius: 0;
+}
+
+
+
+
+/***************************
+▼ カルーセル
+***************************/
+
+
+.carousel-control {
+  background-image: none!important;
+}
+
+.btn{
+  background: #19c0f2;
+  margin-bottom: 12px;
+}
+
+/***************************
+▼ スマホ - PORTFOLIO
+***************************/
+
+.portfolio-contents-article-wrapper > div{
+  padding-left:0;
+  padding-right:0;
+}
+
+/***************************
+▼ タブレット版 - PORTFOLIO
+***************************/
+
+
+@media (min-width: 768px){
+
+  .portfolio-contents-article-wrapper > div:nth-child(odd){
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  .portfolio-contents-article-wrapper > div:nth-child(even){
+    padding-right: 0;
+    padding-left: 10px; 
+  }
+
+}
+
 
 /********************************************
 ▼ メディアクエリ
