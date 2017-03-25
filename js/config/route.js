@@ -25,7 +25,7 @@ portfolioApp.config(function($routeProvider) {
     .when('/portfolio', {
 
         templateUrl: 'pages/portfolio.html',
-        controller: 'secondController'
+        controller: 'portfolioController'
 
     })
 

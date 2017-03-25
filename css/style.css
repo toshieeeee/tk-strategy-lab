@@ -359,17 +359,19 @@ TOP-PAGE-各セクションのスタイル
 
 .btn{
   background: #19c0f2;
-  margin-bottom: 12px;
+  margin-bottom: 12px; 
 }
 
 /***************************
 ▼ スマホ - PORTFOLIO
 ***************************/
 
+/*
 .portfolio-contents-article-wrapper > div{
   padding-left:0;
   padding-right:0;
 }
+*/
 
 /***************************
 ▼ タブレット版 - PORTFOLIO
@@ -388,6 +390,16 @@ TOP-PAGE-各セクションのスタイル
     padding-left: 10px; 
   }
 
+}
+
+/***************************
+▼ フォーム
+***************************/
+
+
+
+.form-horizontal .control-label{
+  text-align: left;
 }
 
 
