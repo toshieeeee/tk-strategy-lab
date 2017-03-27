@@ -20,6 +20,7 @@ portfolioApp.controller('secondController',['$scope',function($scope){
 portfolioApp.controller('portfolioController',['$scope','portfolioService',function($scope,portfolioService){
 
     $scope.portfolio = portfolioService.portfolio;
+    $scope.workshop = portfolioService.workshop;
 
   }]);
 
