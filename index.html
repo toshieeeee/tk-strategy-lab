@@ -4,7 +4,7 @@
   
 <head>
   <meta charset="UTF-8">
-  <title>Angular_temp</title>
+  <title>TK-LAB</title>
 
 <!--
 **************************
@@ -20,7 +20,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
    
-  <!--最小限のビューポート設定-->
+  <!--ビューポート設定-->
+
   <meta name="viewport" content="width=device-width">
 
   <script src="/lib/jquery/jquery-3.1.1.min.js"></script>
@@ -69,10 +70,17 @@
 
       <div pc-nav-common></div>
 
+      <!--
+      **************************
+      ▼ メインコンテンツ
+      ****************************
+      --> 
       
       <div class="col-md-9 col-sm-9 col-xs-12">
 
         <ng-view></ng-view>
+
+        <div footer-common></div>
             
       </div>
 

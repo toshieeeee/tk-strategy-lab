@@ -89,6 +89,16 @@ a:hover{
 
 /*********icon********/
 
+.tk-lab-icon {
+  background-image: url('/images/main-icon.png');
+  width: 18px;
+  height: 18px;
+  background-size: 18px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
 .main-icon{
   background-image: url('/images/main-icon.png');
   width: 36px;
@@ -324,6 +334,18 @@ TOP-PAGE-各セクションのスタイル
 }
 
 
+.main-contents-portfolio-wrapper {
+  margin-top: 18px;
+}
+
+.main-contents-portfolio-wrapper > div > .thumbnail > .caption{
+  text-align: center;
+}
+
+
+.main-contents-profile-wrapper{
+  text-align: left;
+}
 
 
 /***************************
@@ -332,7 +354,7 @@ TOP-PAGE-各セクションのスタイル
 
 .footer {
   height: 50px;
-  background : #5e5e5e;
+  /*background : #5e5e5e;*/
   z-index: 1000;
   /*
   position: fixed;
@@ -343,10 +365,20 @@ TOP-PAGE-各セクションのスタイル
 
 .small {
   display: block;
-  color :#fff;
+  color : #777;
   font-size: 12px;
   line-height: 50px;
   text-align: center;
+}
+
+.footer-sns-list-wrapper {
+  width: 210px;
+  padding-left: 0;
+  margin: 0 auto;
+}
+
+.footer-sns-list-wrapper > .footer-sns-list {
+  margin-right: 12px;
 }
 
 
@@ -393,6 +425,24 @@ TOP-PAGE-各セクションのスタイル
 .about-contents-text-answer{
   padding-top: 16px;
 }
+
+.about-contents-face-profile {
+
+}
+
+.about-contents-face-profile-image {
+
+  background-image: url('/images/yuusha.gif');
+  width: 240px;
+  height: 240px;
+  background-size:240px; 
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border-radius: 120px;
+
+}
+
+
 
 /*******************************************
 ▼ PORTFOLIO
