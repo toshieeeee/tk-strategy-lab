@@ -115,19 +115,90 @@ a:hover{
 
 .common-pc-nav{
   position: fixed;
-  margin-top: 24px;
-  border-top: 1px solid #e7e7e7
+  height: 100%;
+  /*margin-top: 24px;*/
+  /*bottom : 60px;*/
+  border-right: 1px solid #e7e7e7;
+  z-index: 0;
 }
 
 
 .common-pc-nav-list:first-child {
-/*  margin-top: 0;*/
+  margin-top: 178px;
 }
 
 
 .common-pc-nav-list {
-  margin-top: 16px;
+  margin-top: 24px;
+  font-size: 16px;
 }
+
+.common-pc-sns-list-wrapper {
+  /*border-top: 1px solid #e7e7e7;*/
+  margin-top: 24px;
+}
+
+.common-pc-sns-list-wrapper > .is-main-font-color {
+  display: block;
+  margin-top: 24px;
+  font-size: 16px;
+}
+
+.common-pc-sns-list-border {
+  height: 48px;
+  background: #eee;
+
+}
+
+.common-pc-sns-margin{
+  margin-top: 24px;
+}
+
+.common-pc-sns-list {
+
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.common-pc-sns-list:nth-child(odd){
+  margin-right: 12px; 
+}
+
+.tw-icon,
+.fb-icon {
+  display: inline-block;
+  width: 36px;
+  height: 35px;
+  background-size:36px; 
+
+}
+
+.git-icon,
+.mail-icon{
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-size:36px; 
+  margin-top: 12px;;
+
+}
+
+.tw-icon {
+  background-image: url('/images/tw-icon.png');
+}
+
+.fb-icon {
+  background-image: url('/images/fb-icon.png');
+}
+
+.git-icon {
+  background-image: url('/images/git-icon.png');
+}
+
+.mail-icon {
+  background-image: url('/images/mail-icon.ico');
+}
+
 
 
 /*********NAV - スマホ ********/
@@ -262,6 +333,12 @@ TOP-PAGE-各セクションのスタイル
 .footer {
   height: 50px;
   background : #5e5e5e;
+  z-index: 1000;
+  /*
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  */
 }
 
 .small {
