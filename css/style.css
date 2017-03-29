@@ -1,7 +1,7 @@
 body {
   font-family: 'YuGothic','Yu Gothic','Lato',sans-serif;
   font-weight: 100;
-  margin-top: 40px;
+  /*padding-top: 40px;*/
 }
 
 ul,li{
@@ -248,7 +248,7 @@ a:hover{
 .navbar-default .navbar-brand{
   position: absolute;
   left: 50%;
-  margin-left: -57px;
+  margin-left: -52px;
 }
 
 
@@ -406,12 +406,13 @@ TOP-PAGE-各セクションのスタイル
 
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 64px;
 
 }
 
 .about-contents-header{
   background :#19c0f2;
-  margin-top: 24px;
+  /*margin-top: 24px;*/
   padding-bottom :20px;
 }
 
