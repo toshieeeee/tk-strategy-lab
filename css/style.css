@@ -249,7 +249,7 @@ a:hover{
 ***************************/
 
 .main-contents-wrapper {
-  height: 480px;
+  height: 520px;
   /*background-color: #7fdcca;*/
 
   background-color: #19c0f2;
@@ -258,12 +258,20 @@ a:hover{
 }
 
 .main-contents-h-txt {
-  margin-top: 16px;
+  margin-top: 32px;
+  font-size: 24px;
 }
 
+
 .main-contents-txt-wrapper{
-  margin-top: 36px;
+  margin-top: 24px;
 }
+
+.main-contents-h-txt-child {
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
 
 .main-contents-logo-wrapper{
   padding-top: 80px;

@@ -12,24 +12,22 @@ portfolioApp.service('portfolioService',function(){
         title: 'きくちWEB研究所',
         comment: '東京デザインプレックス研究所',
         modal : 'kikuchi-web-lab',
-        modal_image_1 : 'kikuchi-web-lab_01.png',
-        modal_image_2 : 'kikuchi-web-lab_02.png',
         link : 'http://tokyo-d-plex.com/~toshikikikuchi/',
         env: 'Adobe DreamWeaver/Adobe PhotoShop/Adobe illustlator',
         language : 'HTML5/CSS3/jQuery',
-        modalcomment : '東京デザインプレックス研究所で、作成したWEBサイトです'
+        modalcomment : '東京デザインプレックス研究所で、作成したWEBサイトです。企画・設計・デザイン・実装まですべて一人で行いました。アニーメーションはjQueryで実装しています。'
 
         },
         {
 
         image: 'dena-creator-blog.png',
         title: 'DeNA CREATOR BLOG',
-        comment: '@DeNA',
+        comment: '（株）ディー・エヌ・エー',
         modal : 'dena-creator-blog',
         link: 'http://creator.dena.jp/',
-        env: 'Sublime/CMS(livedoor Blog)',
-        language : 'HTML5/CSS3/javaScript',
-        modalcomment : 'クリエイター向けのブログサービスです。ライブドアブログのシステムを利用しています。'
+        env: 'CMS(Livedoor Blog)',
+        language : 'HTML5/CSS3/JavaScript',
+        modalcomment : 'クリエイター向けのブログサービスです。ライブドアブログのシステムを利用して実装しています。フロントの実装・バックエンドの連携・ブログ執筆/システムの運用を行いました。'
 
         },
         {
@@ -39,9 +37,9 @@ portfolioApp.service('portfolioService',function(){
           comment: '（株）ディー・エヌ・エー',
           modal : 'ui-crunch',
           link: 'http://ui-crunch.com/',
-          env: 'Sublime',
+          env: 'Grunt/git',
           language : 'HTML5/Sass/jQuery',
-          modalcomment : 'デザイナーイベントサイト'
+          modalcomment : 'UIデザイナーのイベントのランディングページの制作を行いました。Sassの導入/「レスポンシブ」対応による「マルチデバイス」対応を行いました。'
 
         },
         {
@@ -51,9 +49,9 @@ portfolioApp.service('portfolioService',function(){
           comment: '（株）ディー・エヌ・エー',
           modal : 'reflection',
           link: 'http://reflection-info.com/',
-          env: 'Sublime/AWS EC2',
+          env: 'Grunt/git/AWS S3/Sketch',
           language : 'JQuery',
-          modalcomment : '展示会のイベントページです。'
+          modalcomment : 'クリエイター展示会のイベントページです。「GoogleMAP-API」「パララックス効果」の実装などを行いました。'
 
         },
         {
@@ -63,9 +61,9 @@ portfolioApp.service('portfolioService',function(){
           comment: '（株）SHOWROOM',
           modal : 'SHOWROOM',
           link: 'http://showroom.co.jp',
-          env: 'Sublime/AWS EC2',
-          language : 'JQuery',
-          modalcomment : '株式会社SHOWROOMのコーポレートサイトです'
+          env: 'Gulp/SMACSS',
+          language : 'HTML5/Sass/JQuery',
+          modalcomment : '株式会社SHOWROOMのコーポレートサイトです。「CSS設計」の手法の一つである、「SMACSS」を取り入れて実装しました。また、タスクランナーとして「Gulp」を導入しました。'
 
         },
         {
@@ -75,9 +73,9 @@ portfolioApp.service('portfolioService',function(){
           comment: '（株）ディー・エヌ・エー',
           modal : 'howwell',
           link: 'http://howwell.jp/',
-          env: 'Sublime/AWS EC2',
-          language : 'JQuery',
-          modalcomment : 'howwellの公式サイトです'
+          env: 'Gulp/git',
+          language : 'HTML/CSS/JQuery',
+          modalcomment : 'howwellの公式サイトです。フロントエンド全般の実装を行いました。'
 
         },
         {
@@ -87,21 +85,21 @@ portfolioApp.service('portfolioService',function(){
           comment: '（株）ディー・エヌ・エー',
           modal : 'ui-crunch-u25',
           link: 'http://ui-crunch.com/u-25/',
-          env: 'Sublime/AWS EC2',
-          language : 'JQuery',
-          modalcomment : 'howwellの公式サイトです'
+          env: 'Gulp/git',
+          language : 'HTML/CSS/JQuery',
+          modalcomment : 'UIデザイナーのイベントのランディングページの制作を行いました。'
 
         },
         {
 
           image: 'nanairo.png',
           title: 'nanairo',
-          comment: '非公開',
+          comment: 'フォトグラファー',
           modal : 'nanairo',
           link: 'http://hikarinosaki.com/',
-          env: 'Sublime/AWS EC2',
-          language : 'JQuery',
-          modalcomment : '写真家のポートフォリオサイトです'
+          env: 'Gulp/git/git flow/AWS S3',
+          language : 'HTML/CSS/JQuery',
+          modalcomment : '個人で受けた写真家のポートフォリオサイトです。フロントエンド全般の実装を行いました。'
 
         },{
 
@@ -110,9 +108,9 @@ portfolioApp.service('portfolioService',function(){
           comment: '（株）CodeCamp',
           modal : 'codecamp',
           link: 'http://codecamp10334.lesson5.codecamp.jp/25_twitter_system/htdocs/home.php',
-          env: 'Sublime/AWS EC2',
-          language : 'PHP/MySQL',
-          modalcomment : 'Twitterのシステムクローンです。'
+          env: 'phpMyAdmin/MVC-model',
+          language : 'PHP/MySQL/HTML/CSS',
+          modalcomment : 'Twitterのシステムクローンです。PHP5.0以降の書き方で、バックエンドのシステムをゼロから構築しました。MVCモデルで設計しています。'
 
         }
 
@@ -127,9 +125,9 @@ portfolioApp.service('portfolioService',function(){
           comment: '田町スタジオ',
           modal : 'kaigan',
           link: 'http://eventinfo.benkyo-cafe.net/event/33030',
-          env: 'Sublime/AWS EC2',
-          language : 'PHP/MySQL',
-          modalcomment : '同期と作成した、音楽サービス'
+          env: '勉強カフェ-田町スタジオ(2017/2/4)',
+          language : '企画/広告/プレゼンテーション',
+          modalcomment : '勉強法に関する、勉強会を開催しました。90分にわたって、対話形式で行いました。'
 
         },{
 
@@ -138,9 +136,9 @@ portfolioApp.service('portfolioService',function(){
           comment: '田町スタジオ',
           modal : 'beginner',
           link: 'http://eventinfo.benkyo-cafe.net/event/32464',
-          env: 'Sublime/AWS EC2',
-          language : 'PHP/MySQL',
-          modalcomment : '同期と作成した、音楽サービス'
+          env: '勉強カフェ-田町スタジオ(2017/1/15 & 2017/3/4)',
+          language : '企画/広告/プレゼンテーション',
+          modalcomment : 'Web初心者に向けたワークショップを行いました。いままで計２回開催しています。のち一回はアシスタントの方と共同開催しました。'
 
         },{
 
@@ -149,9 +147,9 @@ portfolioApp.service('portfolioService',function(){
           comment: '田町スタジオ',
           modal : '21century',
           link: 'http://eventinfo.benkyo-cafe.net/event/31302',
-          env: 'Sublime/AWS EC2',
+          env: '企画/広告/プレゼンテーション',
           language : 'PHP/MySQL',
-          modalcomment : '同期と作成した、音楽サービス'
+          modalcomment : '勉強法に関する、勉強会をはじめて主催しました。企画/広告戦略の設計/集客/プレゼンを行いました。60分にわたって、対話形式で行いました。'
 
         },
 
