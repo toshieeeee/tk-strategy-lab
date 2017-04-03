@@ -1,34 +1,42 @@
 <!DOCTYPE html>
-
 <html lang="ja"  ng-app="portfolioApp">
   
 <head>
   <meta charset="UTF-8">
-  <title>TK-LAB</title>
-
-  <link rel="shortcut icon" type="image/x-icon" href="/images/yuusha.png">
-  <link rel="apple-touch-icon" sizes="57x57" href="/images/yuusha.png">
-  <link rel="icon" type="image/png" href="/images/yuusha.png" sizes="192x192">
+  <title>TK-STRATEGY-LAB</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
 
 <!--
-**************************
-▼Boot_Strap呼び出し
-****************************
+  <link rel="shortcut icon" type="image/x-icon" href="/image/tk-ogp.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="/image/tk-ogp.png">
+  <link rel="icon" type="image/png" href="/images/yuusha.png" sizes="192x192">
 -->
-  
+
+  <!--
+  **************************
+  ▼ OGPの設定
+  ****************************
+  -->
+
+  <meta property="og:title" content="戦略的なクリエイターです" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://tk-strategy-lab.com/" />
+  <meta property="og:image" content="/image/tk-ogp.png" />
+  <meta property="og:site_name"  content="TK-STRATEGY-LAB" />
+  <meta property="og:description" content="はじめまして！日本のWebクリエイターです。世界中からプロジェクトの依頼をお受けします。お気軽にご連絡ください。"/>
+
+
+  <!--
+  **************************
+  ▼Boot_Strap&CSS呼び出し
+  ****************************
+  -->
+
   <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
   <!--<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
   <link rel="stylesheet" type="text/css" href="/css/style.css">
-  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
-
-
-
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-   
-  <!--ビューポート設定-->
-
-  <meta name="viewport" content="width=device-width">
-
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>  
   <script src="/lib/jquery/jquery-3.1.1.min.js"></script>
   <script src="/lib/jquery/bootstrap.js"></script>
 
@@ -85,23 +93,19 @@
 
         <ng-view></ng-view>
 
+        <!--
+        **************************
+        ▼共通FOOTER呼び出し
+        ****************************
+        --> 
+          
         <div footer-common></div>
             
       </div>
-
-
 
     </div>
 
   </div>
 
-<!--
-**************************
-▼共通FOOTER呼び出し
-****************************
---> 
-  
-  <!--<div footer-common></div>-->
-  
 </body>
 </html>
