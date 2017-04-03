@@ -420,6 +420,26 @@ TOP-PAGE-各セクションのスタイル
   padding-top: 24px;
 }
 
+/*目次のスタイル*/
+
+.about-table-contents-wrapper {
+  padding-left: 0;
+  /*text-indent: 0.1em;*/
+  
+}
+
+.about-table-contents-wrapper > li {
+  margin-bottom: 6px;
+}
+
+
+
+.about-table-contents-link {
+  color: #777;
+  /*text-indent: -0.7em;*/
+
+}
+
 .about-contents-text-wrapper{
   margin-top: 24px;
 }
