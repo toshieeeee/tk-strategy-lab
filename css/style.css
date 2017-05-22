@@ -183,7 +183,8 @@ a:hover{
 }
 
 .tw-icon,
-.fb-icon {
+.fb-icon,
+.hatena-icon {
   display: inline-block;
   width: 36px;
   height: 35px;
@@ -192,7 +193,8 @@ a:hover{
 }
 
 .git-icon,
-.mail-icon{
+.mail-icon,
+.w-icon {
   display: inline-block;
   width: 36px;
   height: 36px;
@@ -211,6 +213,17 @@ a:hover{
 
 .git-icon {
   background-image: url('/images/git-icon.png');
+}
+
+.w-icon {
+  background-image: url('/images/w-icon.png');
+  border-radius: 24px;
+
+}
+
+.hatena-icon {
+  background-image: url('/images/hatena-icon.png');
+  border-radius: 24px;
 }
 
 .mail-icon {
@@ -388,7 +401,7 @@ TOP-PAGE-各セクションのスタイル
 }
 
 .footer-sns-list-wrapper {
-  width: 170px;
+  width: 200px;
   padding-left: 0;
   margin: 0 auto;
 }
