@@ -32,30 +32,6 @@ portfolioApp.service('portfolioService',function(){
         },
         {
 
-          image: 'ui-crunch.png',
-          title: 'UI CRUNCH',
-          comment: '（株）ディー・エヌ・エー',
-          modal : 'ui-crunch',
-          link: 'http://ui-crunch.com/',
-          env: 'Grunt/git',
-          language : 'HTML5/Sass/jQuery',
-          modalcomment : 'UIデザイナーのイベントのランディングページの制作を行いました。Sassの導入/「レスポンシブ」対応による「マルチデバイス」対応を行いました。'
-
-        },
-        {
-
-          image: 'reflection.png',
-          title: 'REFLECTION',
-          comment: '（株）ディー・エヌ・エー',
-          modal : 'reflection',
-          link: 'http://reflection-info.com/',
-          env: 'Grunt/git/AWS S3/Sketch',
-          language : 'JQuery',
-          modalcomment : 'クリエイター展示会のイベントページです。「GoogleMAP-API」「パララックス効果」の実装などを行いました。'
-
-        },
-        {
-
           image: 'showroom.png',
           title: 'SHOWROOM',
           comment: '（株）SHOWROOM',
@@ -64,30 +40,6 @@ portfolioApp.service('portfolioService',function(){
           env: 'Gulp/SMACSS',
           language : 'HTML5/Sass/JQuery',
           modalcomment : '株式会社SHOWROOMのコーポレートサイトです。「CSS設計」の手法の一つである、「SMACSS」を取り入れて実装しました。また、タスクランナーとして「Gulp」を導入しました。'
-
-        },
-        {
-
-          image: 'howwell.png',
-          title: 'howwell',
-          comment: '（株）ディー・エヌ・エー',
-          modal : 'howwell',
-          link: 'http://howwell.jp/',
-          env: 'Gulp/git',
-          language : 'HTML/CSS/JQuery',
-          modalcomment : 'howwellの公式サイトです。フロントエンド全般の実装を行いました。'
-
-        },
-        {
-
-          image: 'ui-crunch-u25.png',
-          title: 'UI CRUNCH U25',
-          comment: '（株）ディー・エヌ・エー',
-          modal : 'ui-crunch-u25',
-          link: 'http://ui-crunch.com/u-25/',
-          env: 'Gulp/git',
-          language : 'HTML/CSS/JQuery',
-          modalcomment : 'UIデザイナーのイベントのランディングページの制作を行いました。'
 
         },
         {
@@ -111,6 +63,55 @@ portfolioApp.service('portfolioService',function(){
           env: 'phpMyAdmin/MVC-model',
           language : 'PHP/MySQL/HTML/CSS',
           modalcomment : 'Twitterのシステムクローンです。PHP5.0以降の書き方で、バックエンドのシステムをゼロから構築しました。MVCモデルで設計しています。'
+
+        },
+        {
+
+          image: 'reflection.png',
+          title: 'REFLECTION',
+          comment: '（株）ディー・エヌ・エー',
+          modal : 'reflection',
+          link: 'http://reflection-info.com/',
+          env: 'Grunt/git/AWS S3/Sketch',
+          language : 'JQuery',
+          modalcomment : 'クリエイター展示会のイベントページです。「GoogleMAP-API」「パララックス効果」の実装などを行いました。'
+
+        },
+
+        {
+
+          image: 'howwell.png',
+          title: 'howwell',
+          comment: '（株）ディー・エヌ・エー',
+          modal : 'howwell',
+          link: 'http://howwell.jp/',
+          env: 'Gulp/git',
+          language : 'HTML/CSS/JQuery',
+          modalcomment : 'howwellの公式サイトです。フロントエンド全般の実装を行いました。'
+
+        },
+        {
+
+          image: 'ui-crunch.png',
+          title: 'UI CRUNCH',
+          comment: '（株）ディー・エヌ・エー',
+          modal : 'ui-crunch',
+          link: 'http://ui-crunch.com/',
+          env: 'Grunt/git',
+          language : 'HTML5/Sass/jQuery',
+          modalcomment : 'UIデザイナーのイベントのランディングページの制作を行いました。Sassの導入/「レスポンシブ」対応による「マルチデバイス」対応を行いました。'
+
+        },
+        {
+
+          image: 'ui-crunch-u25.png',
+          title: 'UI CRUNCH U25',
+          comment: '（株）ディー・エヌ・エー',
+          modal : 'ui-crunch-u25',
+          link: 'http://ui-crunch.com/u-25/',
+          env: 'Gulp/git',
+          language : 'HTML/CSS/JQuery',
+          modalcomment : 'UIデザイナーのイベントのランディングページの制作を行いました。'
 
         }
 
